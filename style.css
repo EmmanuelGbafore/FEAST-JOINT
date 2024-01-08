@@ -113,5 +113,16 @@ footer {
         width: 100%   /* Full width for the smallest screen size*/
     }
 }
-
+footer{
+    position:static;   /* Remove fixed position for the footer on smaller screens*/
+}
+nav {
+    flex-direction:column; /* Navigation menu should be stacked vertically for smaller screens*/
+}
+nav a {
+    margin: 5px 0; /* Adjust margin for navigation items on smaller screens*/
+}
+.order-button {
+    margin: 20px auto; /* Center order button on smaller screens*/
+}
 
