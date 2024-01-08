@@ -124,5 +124,6 @@ nav a {
 }
 .order-button {
     margin: 20px auto; /* Center order button on smaller screens*/
+    position:relative; 
 }
 
